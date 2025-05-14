@@ -1,8 +1,8 @@
 <?php
 
+use app\Http\Controllers\API\V1\AuthController;
+use app\Http\Controllers\API\V1\UserController;
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\AuthController;
-use App\Http\Controllers\UserController;
 
 Route::prefix('/v1')->group(static function (): void {
     Route::prefix('/auth')->group(static function (): void {

@@ -1,7 +1,8 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace app\Http\Controllers\API\V1;
 
+use App\Http\Controllers\Controller;
 use App\Http\Resources\User\ProfileResource;
 use Illuminate\Http\Request;
 
