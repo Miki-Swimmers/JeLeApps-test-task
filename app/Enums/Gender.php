@@ -14,7 +14,7 @@ enum Gender: string
     case MALE = 'MALE';
 
     /**
-     * Женгщина
+     * Женщина
      */
     case FEMALE = 'FEMALE';
 }
